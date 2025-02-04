@@ -1,0 +1,75 @@
+# ❌ 개인 설정 파일 (각 개발자의 환경에 따라 다르므로 제외)
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ❌ Flutter 빌드 및 캐시 파일 (개발자의 환경에서 자동 생성되므로 공유할 필요 없음)
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+.melos/
+
+# ❌ Xcode 관련 (iOS 개발 시 불필요한 개인 설정 파일)
+xcuserdata/
+*.xcworkspace/
+*.xcconfig
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+
+# ❌ Android 관련 (빌드 결과물 및 개인 설정 파일)
+android/.gradle/
+android/app/debug
+android/app/profile
+android/app/release
+android/key.properties
+
+# ❌ Firebase 및 보안 파일 (보안 위험 방지를 위해 Git에 올리지 않음)
+firebase_app_id_file.json
+google-services.json
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+*.keystore
+*.jks
+*.p12
+*.p8
+*.pem
+*.crt
+*.key
+*.mobileprovision
+
+# ❌ Fastlane 관련 파일 (자동 빌드 및 배포 시 생성되는 파일)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# ❌ 디버그 및 로그 파일
+*.log
+*.map.json
+app.*.symbols
+app.*.map.json
+
+# ✅ Git에 포함해야 할 Flutter 설정 파일 (협업을 위해 유지)
+!pubspec.yaml
+!pubspec.lock
+!analysis_options.yaml
+!android/app/src/main/AndroidManifest.xml
+!ios/Runner/Info.plist
+!ios/Runner.xcodeproj/project.pbxproj
+!README.md
