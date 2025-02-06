@@ -43,16 +43,6 @@ class HomeScreen extends StatelessWidget {
           backgroundColor: Colors.white,
           elevation: 1,
           centerTitle: true,
-          bottom: const TabBar(
-            labelColor: Colors.blue,
-            unselectedLabelColor: Colors.grey,
-            indicatorColor: Colors.blue,
-            indicatorWeight: 3,
-            tabs: [
-              Tab(text: '공연'),
-              Tab(text: '특강'),
-            ],
-          ),
           actions: [
             IconButton(
               icon: const Icon(Icons.search_outlined, color: Colors.black),
@@ -75,6 +65,16 @@ class HomeScreen extends StatelessWidget {
               height: 100, 
               child: CarouselScreen(),
             ),
+            TabBar(
+            labelColor: Colors.blue,
+            unselectedLabelColor: Colors.grey,
+            indicatorColor: Colors.blue,
+            indicatorWeight: 3,
+            tabs: [
+              Tab(text: '공연'),
+              Tab(text: '특강'),
+            ],
+          ),
             Expanded(
               child: TabBarView(
                 children: [
