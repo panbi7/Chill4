@@ -1,4 +1,4 @@
-import 'package:chill4_promotion_community/event_manager/event_form.dart';
+import 'package:chill4_promotion_community/event_manager/event_management.dart';
 import 'package:flutter/material.dart';
 
 class MyPage extends StatelessWidget {
